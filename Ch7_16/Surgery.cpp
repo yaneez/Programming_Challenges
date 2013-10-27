@@ -1,26 +1,26 @@
 #include "Surgery.h"
 
-const double Surgery::getSurgeryHead()
+const double Surgery::getSurgeryHead() const 
 {
 	return m_surgeryHead;
 }
 
-const double Surgery::getSurgeryShoulder()
+double Surgery::getSurgeryShoulder() const 
 {
 	return m_surgeryShoulder;
 }
 
-const double Surgery::getSurgeryTorso()
+double Surgery::getSurgeryTorso() const 
 {
 	return m_surgeryTorso;
 }
 
-const double Surgery::getSurgeryThigh()
+double Surgery::getSurgeryThigh() const 
 {
 	return m_surgeryThigh;
 }
 
-const double Surgery::getSurgeryLeg()
+double Surgery::getSurgeryLeg() const 
 {
 	return m_surgeryLeg;
 }

@@ -18,10 +18,10 @@ public:
 		m_pillRed = 10.00;
 	}
 
-	const double getPillMotrin();
-	const double getPillTylenol();
-	const double getPillVicodin();
-	const double getPillBlue();
-	const double getPillRed();
+	double getPillMotrin() const;
+	double getPillTylenol() const;
+	double getPillVicodin() const;
+	double getPillBlue() const;
+	double getPillRed() const;
 };
 

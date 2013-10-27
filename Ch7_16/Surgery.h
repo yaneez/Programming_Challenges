@@ -17,9 +17,9 @@ public:
 		m_surgeryLeg = 750.00;
 	}
 
-	const double getSurgeryHead();
-	const double getSurgeryShoulder();
-	const double getSurgeryTorso();
-	const double getSurgeryThigh();
-	const double getSurgeryLeg();
+	double getSurgeryHead() const;
+	double getSurgeryShoulder() const;
+	double getSurgeryTorso() const;
+	double getSurgeryThigh() const;
+	double getSurgeryLeg() const;
 };

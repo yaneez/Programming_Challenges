@@ -13,8 +13,8 @@ public:
 		m_dailyRate = 75.00;
 	}
 
-	const double getDailyRate();
+	double getDailyRate() const;
 	double getTotalCharges(double medicationCharges, double surgeryCharges);
-	const int getDaysSpent();
+	int getDaysSpent()  const;
 };
 

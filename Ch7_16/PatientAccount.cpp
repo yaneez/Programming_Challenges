@@ -1,6 +1,6 @@
 #include "PatientAccount.h"
 
-const double PatientAccount::getDailyRate()
+double PatientAccount::getDailyRate() const 
 {
 	return m_dailyRate;
 }
@@ -10,7 +10,7 @@ double PatientAccount::getTotalCharges(double medicationCharges, double surgeryC
 	return ((getDaysSpent() * getDailyRate()) + medicationCharges + surgeryCharges);
 }
 
-const int PatientAccount::getDaysSpent()
+int PatientAccount::getDaysSpent() const 
 {
 	return m_daysSpent;
 }

@@ -1,26 +1,26 @@
 #include "Pharmacy.h"
 
-const double Pharmacy::getPillMotrin()
+double Pharmacy::getPillMotrin() const
 {
 	return m_pillMotrin;
 }
 
-const double Pharmacy::getPillTylenol()
+double Pharmacy::getPillTylenol() const
 {
 	return m_pillTylenol;
 }
 
-const double Pharmacy::getPillVicodin()
+double Pharmacy::getPillVicodin() const		
 {
 	return m_pillVicodin;
 }
 
-const double Pharmacy::getPillBlue()
+double Pharmacy::getPillBlue() const
 {
 	return m_pillBlue;
 }
 
-const double Pharmacy::getPillRed()
+double Pharmacy::getPillRed() const
 {
 	return m_pillRed;
 }
