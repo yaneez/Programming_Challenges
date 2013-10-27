@@ -149,10 +149,10 @@ void displayMedication()
 double getMedication()
 {
 	Pharmacy myPharmacy;
-
+                                                    
 	const int MIN_PILL_MENU = 1,
-			  MAX_PILL_MENU = 5,
-			  MIN_PILL_QUANITY = 1;
+              MAX_PILL_MENU = 5,
+              MIN_PILL_QUANITY = 1;
 
 	int int_i = 0,
 		pillQuanity = 0;
